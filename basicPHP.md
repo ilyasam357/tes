@@ -72,3 +72,15 @@ menghapus variable
 == operasi array ==
 
 - $array[index] "mengakses data di array pada nomor index"
+- $array[index] = value "mengubah data di array pada nomor index dengan value baru"
+- $array[] = value "menambah data array pada posisi belakang"
+- unset($array[index]) "menghapus data array , index otomatis hilang dari array"
+- count($array) "mengambil total data array"
+
+== array sbg Map ==
+
+- di bahasa pemograman lain itu ada tipe data yg nama nya Map , yaitu asosiasi antara key dan value
+- namun di PHP Map bisa di buat dengan array
+- secara default array akan mengunakan index(number) sebagai key, dan value nya kita bisa bebas untuk mengisi nya
+- namun kita ingin, kita juga bisa mengubah index nya tidak harus mengunakan number , bisa mengunakan tipe data yg lain
+- hal tersebut terlihat seperti Map di bahasa pemograman yg lain

@@ -96,9 +96,33 @@
 // var_dump(isset($ism));
 
 // ==== tipe data array ====
-$no = array(1,2,3,4);
+// $no = array(1,2,3,4);
 
-var_dump($no);
+// var_dump($no);
 
-$nama = ["arga", "fian", "udin"];
-var_dump($nama);
+// operasi array
+
+// $nama = ["arga", "fian", "udin"];
+// mengakses data array
+// var_dump($nama[0]);
+
+// mengubah data array
+// $nama[0] = "ismail";
+// var_dump($nama);
+
+// hapus data array
+// unset($nama[0]);
+// var_dump($nama);
+
+// tambah data array
+// $nama[] = "ibrohim";
+// count($nama);
+// var_dump(count($nama));
+
+//  ===== membuat Map
+$arga =[
+    "name" => "arga",
+    "age" => 16,
+    "alamat" => "GK",
+ ];
+ var_dump($arga);
